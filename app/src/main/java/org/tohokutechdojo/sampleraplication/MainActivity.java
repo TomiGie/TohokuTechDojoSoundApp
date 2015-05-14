@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
         // 各ボタンがタッチされたら反応するように設定
         // これを設定すると152行目の「OnTouch」メソッドの処理がが実行される(音を鳴らすだけ)
         soundButton01.setOnTouchListener(this);
-        soundButton02.setOnTouchListener(MainActivity.this);
+        soundButton02.setOnTouchListener(this);
         soundButton03.setOnTouchListener(this);
         soundButton04.setOnTouchListener(this);
         soundButton05.setOnTouchListener(this);
