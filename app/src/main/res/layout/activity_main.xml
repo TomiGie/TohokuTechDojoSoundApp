@@ -1,0 +1,157 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@mipmap/bg"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp">
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="3" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:id="@+id/button_sound_09"
+            android:src="@drawable/selector_button_blue"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:id="@+id/button_sound_10"
+            android:src="@drawable/selector_button_blue"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:id="@+id/button_sound_11"
+            android:src="@drawable/selector_button_blue"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:id="@+id/button_sound_12"
+            android:src="@drawable/selector_button_blue"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:id="@+id/button_sound_05"
+            android:src="@drawable/selector_button_pink"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:id="@+id/button_sound_06"
+            android:src="@drawable/selector_button_pink"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:id="@+id/button_sound_07"
+            android:src="@drawable/selector_button_pink"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:id="@+id/button_sound_08"
+            android:src="@drawable/selector_button_pink"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:id="@+id/button_sound_01"
+            android:src="@drawable/selector_button_orange"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:id="@+id/button_sound_02"
+            android:src="@drawable/selector_button_orange"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:id="@+id/button_sound_03"
+            android:src="@drawable/selector_button_orange"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:id="@+id/button_sound_04"
+            android:src="@drawable/selector_button_orange"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
