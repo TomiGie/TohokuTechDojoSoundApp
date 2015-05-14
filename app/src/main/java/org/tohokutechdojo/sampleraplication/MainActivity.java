@@ -156,7 +156,7 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
     public boolean onTouch(View v, MotionEvent event) {
         if (event.getAction() == MotionEvent.ACTION_DOWN) {
 
-            // ボタンに設定された音を読み込む
+            // ボタンに設定された音のidを取得する
             int soundId = (int) v.getTag();
 
             //音を鳴らす
