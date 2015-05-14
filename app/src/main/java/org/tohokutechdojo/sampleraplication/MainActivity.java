@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
         soundButton12 = (ImageButton) findViewById(R.id.button_sound_12);
 
         // 各ボタンがタッチされたら反応するように設定
-        // これを設定すると152行目の「OnTouch」メソッドの処理がが実行される(音を鳴らすだけ)
+        // これを設定すると156行目の「OnTouch」メソッドの処理がが実行される(音を鳴らすだけ)
         soundButton01.setOnTouchListener(this);
         soundButton02.setOnTouchListener(this);
         soundButton03.setOnTouchListener(this);
