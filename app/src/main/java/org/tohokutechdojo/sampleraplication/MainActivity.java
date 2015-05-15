@@ -25,14 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
     private ImageButton soundButton12;
     private SoundPool soundPool;
 
-    private int soundIdBass;
-    private int soundIdClap;
-    private int soundIdPiano;
-    private int soundIdHihat;
-    private int soundIdKick;
-    private int soundIdSfx;
-    private int soundIdSfx2;
-    private int soundIdTom;
+    // soundID //
     private int soundIdDo;
     private int soundIdRe;
     private int soundIdMi;
@@ -41,6 +34,15 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
     private int soundIdRa;
     private int soundIdShi;
     private int soundIdDoHi;
+    private int soundIdBass;
+    private int soundIdClap;
+    private int soundIdPiano;
+    private int soundIdHihat;
+    private int soundIdKick;
+    private int soundIdSfx;
+    private int soundIdSfx2;
+    private int soundIdTom;
+    // soundID end //
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,11 +55,11 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
         // ボタンのレイアウトの読み込み
         setButtons();
 
-        // ※1 ボタン画像の読み込み
-        setButtonsColor();
-
-        // ※2 ボタンタップ時の音設定
+        // ※1 ボタンタップ時の音設定
         setButtonSounds();
+
+        // ※2 ボタン画像の設定
+        setButtonsColor();
     }
 
     private void loadSounds() {
@@ -112,7 +114,23 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
         soundButton12.setOnTouchListener(this);
     }
 
-    // ※1 ボタン画像の読み込み
+    // ※1 各ボタンに音のidを設定する
+    private void setButtonSounds() {
+        soundButton01.setTag(soundIdDo);
+        soundButton02.setTag(0);
+        soundButton03.setTag(0);
+        soundButton04.setTag(0);
+        soundButton05.setTag(0);
+        soundButton06.setTag(0);
+        soundButton07.setTag(0);
+        soundButton08.setTag(0);
+        soundButton09.setTag(0);
+        soundButton10.setTag(0);
+        soundButton11.setTag(0);
+        soundButton12.setTag(0);
+    }
+
+    // ※2 ボタン画像の設定
     private void setButtonsColor() {
         int buttonColorOrange = R.drawable.selector_button_orange;  // オレンジ
         int buttonColorBlue = R.drawable.selector_button_blue;      // 青ボタン
@@ -120,7 +138,7 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
         int buttonColorGreen = R.drawable.selector_button_green;    // 緑
 
         soundButton01.setBackgroundResource(buttonColorOrange);
-        soundButton02.setBackgroundResource(buttonColorOrange);
+        soundButton02.setBackgroundResource(buttonColorBlue);
         soundButton03.setBackgroundResource(buttonColorOrange);
         soundButton04.setBackgroundResource(buttonColorOrange);
 
@@ -133,23 +151,6 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
         soundButton10.setBackgroundResource(buttonColorOrange);
         soundButton11.setBackgroundResource(buttonColorOrange);
         soundButton12.setBackgroundResource(buttonColorOrange);
-    }
-
-
-    // ※2 各ボタンに音のidを設定する
-    private void setButtonSounds() {
-        soundButton01.setTag(soundIdDo);
-        soundButton02.setTag(soundIdRe);
-        soundButton03.setTag(soundIdMi);
-        soundButton04.setTag(soundIdFa);
-        soundButton05.setTag(soundIdSo);
-        soundButton06.setTag(soundIdRa);
-        soundButton07.setTag(soundIdShi);
-        soundButton08.setTag(soundIdDoHi);
-        soundButton09.setTag(soundIdBass);
-        soundButton10.setTag(soundIdClap);
-        soundButton11.setTag(soundIdHihat);
-        soundButton12.setTag(soundIdKick);
     }
 
     @Override
