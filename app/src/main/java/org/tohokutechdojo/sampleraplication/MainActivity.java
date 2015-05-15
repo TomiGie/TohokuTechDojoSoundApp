@@ -53,10 +53,10 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
         // ボタンのレイアウトの読み込み
         setButtons();
 
-        // ※ボタン画像の読み込み
+        // ※1 ボタン画像の読み込み
         setButtonsColor();
 
-        // ※ボタンタップ時の音設定
+        // ※2 ボタンタップ時の音設定
         setButtonSounds();
     }
 
@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
         soundButton12.setOnTouchListener(this);
     }
 
-    // ※ボタン画像の読み込み
+    // ※1 ボタン画像の読み込み
     private void setButtonsColor() {
         int buttonColorOrange = R.drawable.selector_button_orange;  // オレンジ
         int buttonColorBlue = R.drawable.selector_button_blue;      // 青ボタン
@@ -124,19 +124,19 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
         soundButton03.setBackgroundResource(buttonColorOrange);
         soundButton04.setBackgroundResource(buttonColorOrange);
 
-        soundButton05.setBackgroundResource(buttonColorBlue);
-        soundButton06.setBackgroundResource(buttonColorBlue);
-        soundButton07.setBackgroundResource(buttonColorBlue);
-        soundButton08.setBackgroundResource(buttonColorBlue);
+        soundButton05.setBackgroundResource(buttonColorOrange);
+        soundButton06.setBackgroundResource(buttonColorOrange);
+        soundButton07.setBackgroundResource(buttonColorOrange);
+        soundButton08.setBackgroundResource(buttonColorOrange);
 
-        soundButton09.setBackgroundResource(buttonColorPink);
-        soundButton10.setBackgroundResource(buttonColorPink);
-        soundButton11.setBackgroundResource(buttonColorPink);
-        soundButton12.setBackgroundResource(buttonColorPink);
+        soundButton09.setBackgroundResource(buttonColorOrange);
+        soundButton10.setBackgroundResource(buttonColorOrange);
+        soundButton11.setBackgroundResource(buttonColorOrange);
+        soundButton12.setBackgroundResource(buttonColorOrange);
     }
 
 
-    // ※各ボタンの音を設定する
+    // ※2 各ボタンに音のidを設定する
     private void setButtonSounds() {
         soundButton01.setTag(soundIdDo);
         soundButton02.setTag(soundIdRe);
