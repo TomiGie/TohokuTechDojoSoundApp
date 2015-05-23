@@ -5,9 +5,9 @@
     android:orientation="vertical"
     android:gravity="center"
     android:background="@mipmap/bg"
-    android:paddingLeft="10dp"
-    android:paddingRight="10dp"
-    android:paddingTop="10dp">
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:weightSum="10">
 
     <Space
         android:layout_width="0dp"
@@ -17,63 +17,70 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
+        android:layout_height="0dp"
         android:paddingLeft="8dp"
-        android:paddingRight="8dp">
+        android:paddingRight="8dp"
+        android:layout_weight="2"
+        android:gravity="center">
 
         <ImageButton
             android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_height="match_parent"
             android:id="@+id/button_sound_09"
             android:scaleType="fitCenter"
             android:background="@null"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:adjustViewBounds="true" />
 
         <ImageButton
             android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_height="match_parent"
             android:id="@+id/button_sound_10"
             android:scaleType="fitCenter"
             android:background="@null"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:adjustViewBounds="true" />
 
         <ImageButton
             android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_height="match_parent"
             android:id="@+id/button_sound_11"
             android:scaleType="fitCenter"
             android:background="@null"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:adjustViewBounds="true" />
 
         <ImageButton
             android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_height="match_parent"
             android:id="@+id/button_sound_12"
             android:scaleType="fitCenter"
             android:background="@null"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:adjustViewBounds="true" />
     </LinearLayout>
 
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
+        android:layout_height="0dp"
+        android:gravity="center"
         android:paddingLeft="8dp"
-        android:paddingRight="8dp">
+        android:paddingRight="8dp"
+        android:layout_weight="2">
 
         <ImageButton
             android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_height="match_parent"
             android:id="@+id/button_sound_05"
             android:scaleType="fitCenter"
             android:background="@null"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:adjustViewBounds="true" />
 
         <ImageButton
             android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_height="match_parent"
             android:id="@+id/button_sound_06"
             android:scaleType="fitCenter"
             android:background="@null"
@@ -81,65 +88,72 @@
 
         <ImageButton
             android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_height="match_parent"
             android:id="@+id/button_sound_07"
             android:scaleType="fitCenter"
             android:background="@null"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:adjustViewBounds="true" />
 
         <ImageButton
             android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_height="match_parent"
             android:id="@+id/button_sound_08"
             android:scaleType="fitCenter"
             android:background="@null"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:adjustViewBounds="true" />
     </LinearLayout>
 
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
+        android:layout_height="0dp"
+        android:gravity="center"
         android:paddingLeft="8dp"
-        android:paddingRight="8dp">
+        android:paddingRight="8dp"
+        android:layout_weight="2">
 
         <ImageButton
             android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_height="match_parent"
             android:id="@+id/button_sound_01"
             android:scaleType="fitCenter"
             android:background="@null"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:adjustViewBounds="true" />
 
         <ImageButton
             android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_height="match_parent"
             android:id="@+id/button_sound_02"
             android:scaleType="fitCenter"
             android:background="@null"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:adjustViewBounds="true" />
 
         <ImageButton
             android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_height="match_parent"
             android:id="@+id/button_sound_03"
             android:scaleType="fitCenter"
             android:background="@null"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:adjustViewBounds="true" />
 
         <ImageButton
             android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_height="match_parent"
             android:id="@+id/button_sound_04"
             android:scaleType="fitCenter"
             android:background="@null"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:adjustViewBounds="true" />
     </LinearLayout>
 
     <Space
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_weight="1" />
+        android:layout_weight="0.5" />
 
 </LinearLayout>
