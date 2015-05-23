@@ -137,20 +137,20 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
         int buttonColorPink = R.drawable.selector_button_pink;      // ピンク
         int buttonColorGreen = R.drawable.selector_button_green;    // 緑
 
-        soundButton01.setBackgroundResource(buttonColorOrange);
-        soundButton02.setBackgroundResource(buttonColorOrange);
-        soundButton03.setBackgroundResource(buttonColorOrange);
-        soundButton04.setBackgroundResource(buttonColorOrange);
+        soundButton01.setImageResource(buttonColorOrange);
+        soundButton02.setImageResource(buttonColorOrange);
+        soundButton03.setImageResource(buttonColorOrange);
+        soundButton04.setImageResource(buttonColorOrange);
 
-        soundButton05.setBackgroundResource(buttonColorOrange);
-        soundButton06.setBackgroundResource(buttonColorOrange);
-        soundButton07.setBackgroundResource(buttonColorOrange);
-        soundButton08.setBackgroundResource(buttonColorOrange);
+        soundButton05.setImageResource(buttonColorOrange);
+        soundButton06.setImageResource(buttonColorOrange);
+        soundButton07.setImageResource(buttonColorOrange);
+        soundButton08.setImageResource(buttonColorOrange);
 
-        soundButton09.setBackgroundResource(buttonColorOrange);
-        soundButton10.setBackgroundResource(buttonColorOrange);
-        soundButton11.setBackgroundResource(buttonColorOrange);
-        soundButton12.setBackgroundResource(buttonColorOrange);
+        soundButton09.setImageResource(buttonColorOrange);
+        soundButton10.setImageResource(buttonColorOrange);
+        soundButton11.setImageResource(buttonColorOrange);
+        soundButton12.setImageResource(buttonColorOrange);
     }
 
     @Override
