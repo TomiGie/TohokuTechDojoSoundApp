@@ -4,7 +4,7 @@
   
 ![Qiita](https://raw.githubusercontent.com/TomiGie/TohokuTechDojoSoundApp/master/capture/MainActivity.png "Qiita")
 
-# HOW TO USE
+## Getting Started
 このアプリは画面に12個のボタンが配置されており、それぞれのボタンを押下するとソースコードで設定された音源が再生されるものです。
 しかし、ソースコードはハンズオンように設計されており、未完成の状態となっています。  
 そのままの状態でもアプリのビルドは可能ですが、初期の状態では画面の左下のボタンのみ音が設定されています。  
@@ -12,7 +12,7 @@
 以下に変更が必要な部分とその手順を記載します。
 
 
-## 音の設定
+### 音の設定
 このプログラムではImageButtonのView要素にSetTagでint型のsoundIdを設定し、OnTouchが呼ばれたらそのViewにセットされているタグをgetTagし、取得したsoundIdをSoundPoolで再生する仕組みになっています。  
 ```java:MainActivity.java
 private void setButtonSounds() {
@@ -53,7 +53,7 @@ private int soundIdSfx2;
 private int soundIdTom;
 ```
 
-## ボタン画像の変更
+### ボタン画像の変更
 ボタン画像はMainActivity.javaのsetButtonsColorメソッドで設定をしています。
 ```java:MainActivity.java
 // ※2 ボタン画像の設定
