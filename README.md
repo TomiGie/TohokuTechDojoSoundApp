@@ -1,0 +1,2 @@
+# TohokuTechDojoSoundApp
+ボタンをタップすると音を再生させるサンプルアプリです
